@@ -1,0 +1,12 @@
+C:\next web\EventosDal\obj\Debug\net6.0\EventosDal.csproj.AssemblyReference.cache
+C:\next web\EventosDal\obj\Debug\net6.0\EventosDal.GeneratedMSBuildEditorConfig.editorconfig
+C:\next web\EventosDal\obj\Debug\net6.0\EventosDal.AssemblyInfoInputs.cache
+C:\next web\EventosDal\obj\Debug\net6.0\EventosDal.AssemblyInfo.cs
+C:\next web\EventosDal\obj\Debug\net6.0\EventosDal.csproj.CoreCompileInputs.cache
+C:\next web\EventosDal\bin\Debug\net6.0\EventosDal.deps.json
+C:\next web\EventosDal\bin\Debug\net6.0\EventosDal.dll
+C:\next web\EventosDal\bin\Debug\net6.0\EventosDal.pdb
+C:\next web\EventosDal\obj\Debug\net6.0\EventosDal.dll
+C:\next web\EventosDal\obj\Debug\net6.0\refint\EventosDal.dll
+C:\next web\EventosDal\obj\Debug\net6.0\EventosDal.pdb
+C:\next web\EventosDal\obj\Debug\net6.0\ref\EventosDal.dll
