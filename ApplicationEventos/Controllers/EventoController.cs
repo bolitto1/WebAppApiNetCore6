@@ -92,8 +92,8 @@ namespace ApplicationEventos.Controllers
             return RedirectToAction("Index");
         }
 
-        [HttpPut]
-        [ValidateAntiForgeryToken]
+        [HttpPost]
+        //[Route("Evento/Edit/{id}/{Fecha}")]
         public async Task<IActionResult> Edit(int id, [Bind("Id, Lugar, Descripcion, Fecha, Nroentrada, Precio, Estado, EstadoDesc")] Eventos evento)
         {
             using (var client = new HttpClient())

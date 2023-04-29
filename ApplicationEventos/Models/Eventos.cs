@@ -21,9 +21,9 @@ namespace ApplicationEventos.Models
         public string Descripcion { get; set; }
 
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = false)]
+        //[DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = false)]
         // [Range(typeof(DateTime), "01/01/1900", "31/12/2099", ErrorMessage = "Fecha fuera de rango")]
-        [RegularExpression(@"^(0?[1-9]|[12][0-9]|3[01])\/(0?[1-9]|1[0-2])\/\d{4}$", ErrorMessage = "La fecha debe estar en formato dd/MM/yyyy")]
+        //[RegularExpression(@"^(0?[1-9]|[12][0-9]|3[01])\/(0?[1-9]|1[0-2])\/\d{4}$", ErrorMessage = "La fecha debe estar en formato dd/MM/yyyy")]
 
         public DateTime Fecha { get; set; }
         

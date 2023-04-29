@@ -22,12 +22,12 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Evento}/{action=Index}/{id?}");
 app.UseEndpoints(endpoints =>
 {
+   
     endpoints.MapControllerRoute(
-        name: "myStartUpView",
-        pattern: "myStartUpView",
-        defaults: new { controller = "Evento", action = "Index" });
+                   name: "default",
+                   pattern: "{controller=Evento}/{action=Edit}/{id?}");
 });
 app.Run();
